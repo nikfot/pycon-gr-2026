@@ -707,6 +707,35 @@ layout: section
 <div class="footer-link">Python gives us the flexibility · Elasticsearch gives context a home · contracts keep the workflow honest</div>
 
 ---
+
+<StageMark label="Beyond Sophia" detail="what building it gave back" />
+
+# Building Sophia made us<br>better users of Elastic’s AI tools.
+
+<div class="grid-3">
+  <div class="card" v-click>
+    <span class="number">01</span>
+    <h3>Real experience</h3>
+    <p>We ran retrieval, tenant isolation and bounded workflows in production, not in a demo.</p>
+  </div>
+  <div class="card" v-click>
+    <span class="number">02</span>
+    <h3>Better feedback</h3>
+    <p>We can tell the teams building these products what works, what hurts and what is missing.</p>
+  </div>
+  <div class="card" v-click>
+    <span class="number">03</span>
+    <h3>Better tools</h3>
+    <p>Sophia and tools like it feed back into what Elastic builds, such as Agent Builder.</p>
+  </div>
+</div>
+
+<div class="card" style="margin-top: 1rem; border-left: 4px solid var(--orange, #f36f21)" v-click>
+  <h3>Just released: Elastic nightshift AI SRE</h3>
+  <p>An always-on coworker that detects and investigates across your whole stack with full context. Announced on the Elastic Observability Labs blog on October 8, 2026.</p>
+</div>
+
+---
 layout: cover
 ---
 
