@@ -45,6 +45,12 @@ const props = defineProps<{
 // document, and defs inside a hidden slide's SVG do not render.
 const uid = nextGraphId()
 
+// Absolute asset paths must follow the deck's base path when it is hosted under a
+// sub-path such as GitHub Pages; Slidev only rewrites those in markdown.
+function assetUrl(path: string) {
+  return `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`
+}
+
 const byId = computed(() => Object.fromEntries(props.nodes.map(n => [n.id, n])))
 
 function anchor(n: GraphNode, side: Side): [number, number] {
@@ -143,7 +149,7 @@ function onDark(n: GraphNode) {
       <rect :x="n.x" :y="n.y" :width="n.w" :height="n.h" rx="16"
             :fill="n.fill === 'orange' ? `url(#${uid}-orange)` : n.fill === 'blue' ? `url(#${uid}-blue)` : undefined"
             :class="['node', n.fill ? 'node-' + n.fill : 'node-white', 'stroke-' + (n.stroke ?? 'g'), n.dashed ? 'node-dashed' : '']" />
-      <image v-if="n.logo" :href="n.logo" :x="n.x + 16" :y="n.y + n.h / 2 - 15" width="30" height="30" />
+      <image v-if="n.logo" :href="assetUrl(n.logo)" :x="n.x + 16" :y="n.y + n.h / 2 - 15" width="30" height="30" />
       <text :x="textLines(n).x" :y="textLines(n).title" :text-anchor="textLines(n).anchor"
             :class="['t-title', onDark(n) ? 't-on-dark' : '']">{{ n.title }}</text>
       <text v-for="(l, i) in textLines(n).subs" :key="i" :x="textLines(n).x" :y="l.y"

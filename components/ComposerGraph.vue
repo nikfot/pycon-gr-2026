@@ -6,6 +6,7 @@ const tools = [
   { y: 308, kind: 'scp', title: 'my_mcp', sub: 'SCP skill · fixed plan → MCP', tag: 'today' },
 ]
 const cy = (y: number) => y + 40
+const base = import.meta.env.BASE_URL
 </script>
 
 <template>
@@ -66,7 +67,7 @@ const cy = (y: number) => y + 40
     <g v-for="t in tools" :key="t.y" filter="url(#cg-shadow)">
       <rect x="420" :y="t.y" width="290" height="80" rx="16"
             :class="['node-tool', t.kind === 'scp' ? 'node-scp' : 'node-ab', t.tag === 'candidate' ? 'node-candidate' : '']" />
-      <image v-if="t.kind === 'ab'" href="/elastic-logo.svg" :x="436" :y="t.y + 24" width="30" height="30" />
+      <image v-if="t.kind === 'ab'" :href="`${base}elastic-logo.svg`" :x="436" :y="t.y + 24" width="30" height="30" />
       <text :x="t.kind === 'ab' ? 478 : 440" :y="t.y + 36" class="t-title t-left t-tool">{{ t.title }}</text>
       <text :x="t.kind === 'ab' ? 478 : 440" :y="t.y + 56" class="t-mono t-left">{{ t.sub }}</text>
       <rect :x="710 - 78" :y="t.y - 9" width="66" height="19" rx="9.5" :class="['tag', 'tag-' + t.tag]" />
