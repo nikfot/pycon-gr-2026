@@ -80,6 +80,7 @@ The model can only read so much. So <strong>what does it get to see?</strong>
   <div class="card">
     <h3>Nikos Fotiou</h3>
     <p>Senior Software Engineer at Elastic, Platform Networking.</p>
+    <p style="margin-top: 0.8rem"><strong>My first PyCon talk, and my first time speaking at any conference.<br>And it is my birthday today. 🎂</strong></p>
     <p style="margin-top: 1rem">
       <span class="pill active">github.com/nikfot</span>
       <span class="pill active">linkedin.com/in/nikosfotiou</span>
