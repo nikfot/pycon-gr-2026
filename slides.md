@@ -405,7 +405,7 @@ async def search_knowledge_base(
   <div class="card" v-click>
     <h3>Automatable</h3>
     <p>Reports and suggested next actions become possible.</p>
-    <p class="muted tiny"><strong>How:</strong> typed output that code can read, not prose to parse.</p>
+    <p class="muted tiny"><strong>How:</strong> every answer is a <code>SophiaResponse</code> with <code>sources</code> and <code>confidence</code> fields. Reports and Slack read the fields instead of parsing text.</p>
   </div>
 </div>
 
