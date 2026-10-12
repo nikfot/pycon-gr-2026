@@ -75,9 +75,7 @@ The model can only read so much. So <strong>what does it get to see?</strong>
 
 <StageMark label="Who am I?" detail="and why Sophia exists" />
 
-# Ten years of building platforms.<br>One recurring problem.
-
-<div class="profile-grid">
+<div class="profile-grid" style="margin-top: 7rem">
   <img class="speaker-photo" src="/nikos-fotiou.jpg" alt="Nikos Fotiou">
   <div class="card">
     <h3>Nikos Fotiou</h3>
