@@ -102,7 +102,7 @@ The model can only read so much. So <strong>what does it get to see?</strong>
     <p class="quote" style="margin-top: 0">Sophia means <strong>wisdom</strong> in Greek.</p>
     <div class="card" style="margin-top: .6rem; padding: .7rem 1.1rem">
       <h3>What it is</h3>
-      <p>A productivity experiment, internal to Elastic, that grew from a Slack assistant into a multi-tenant knowledge and workflow platform.</p>
+      <p style="font-size: .92rem">An internal Elastic experiment: a quick PoC, then a hack-week project, then an officially supported project for a few quarters. It is not officially funded today. Along the way it grew from a Slack assistant into a multi-tenant knowledge and workflow platform.</p>
     </div>
     <div class="grid-3" style="margin-top: .6rem">
       <div class="card" style="padding: .7rem 1rem">
@@ -121,7 +121,7 @@ The model can only read so much. So <strong>what does it get to see?</strong>
   </div>
 </div>
 
-<div class="callout" style="margin-top: .8rem; padding: .6rem 1rem; font-size: .9rem">
+<div class="callout" style="margin-top: .8rem; padding: .5rem 1rem; font-size: .82rem">
 Sophia is a multi-tenant engineering assistant you reach through Slack, a REST API, a CLI, and a local MCP server for your editor.
 </div>
 
