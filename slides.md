@@ -24,7 +24,6 @@ drawings:
 
 <div style="margin-top: 1.7rem">
   <span class="pill active">15:20–15:50</span>
-  <span class="pill">Auditorium “Miltiadis Evert”</span>
   <span class="pill">30 min</span>
 </div>
 
