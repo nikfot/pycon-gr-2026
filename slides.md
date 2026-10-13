@@ -100,20 +100,20 @@ The model can only read so much. So <strong>what does it get to see?</strong>
   <img class="story-logo" src="/sophia-logo.jpg" alt="Sophia owl logo">
   <div>
     <p class="quote" style="margin-top: 0">Sophia means <strong>wisdom</strong> in Greek.</p>
-    <div class="card" style="margin-top: 1rem">
+    <div class="card" style="margin-top: .6rem; padding: .7rem 1.1rem">
       <h3>What it is</h3>
       <p>A productivity experiment, internal to Elastic, that grew from a Slack assistant into a multi-tenant knowledge and workflow platform.</p>
     </div>
-    <div class="grid-3" style="margin-top: 1rem">
-      <div class="card">
+    <div class="grid-3" style="margin-top: .6rem">
+      <div class="card" style="padding: .7rem 1rem">
         <h3>Faster operations</h3>
         <p>Speed up day-to-day operations and troubleshooting.</p>
       </div>
-      <div class="card">
+      <div class="card" style="padding: .7rem 1rem">
         <h3>Meaningful actions</h3>
         <p>Help workflows take actions that matter, not just produce text.</p>
       </div>
-      <div class="card">
+      <div class="card" style="padding: .7rem 1rem">
         <h3>Better collaboration</h3>
         <p>Improve the quality of how teams work together.</p>
       </div>
@@ -121,9 +121,11 @@ The model can only read so much. So <strong>what does it get to see?</strong>
   </div>
 </div>
 
-<div class="callout">
+<div class="callout" style="margin-top: .8rem; padding: .6rem 1rem; font-size: .9rem">
 Sophia is a multi-tenant engineering assistant you reach through Slack, a REST API, a CLI, and a local MCP server for your editor.
 </div>
+
+<div class="shoutout">Shout out to Giannis, Stavros and Greg for working together on it.</div>
 
 ---
 

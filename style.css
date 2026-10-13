@@ -429,6 +429,16 @@ code {
   font-size: 2rem;
 }
 
+.shoutout {
+  margin-top: 0.6rem;
+  padding: 0.35rem 0.8rem;
+  background: rgba(23, 32, 51, 0.06);
+  border-radius: 6px;
+  color: var(--muted);
+  font-size: 0.75rem;
+  text-align: center;
+}
+
 .footer-link {
   position: absolute;
   bottom: 1.55rem;
